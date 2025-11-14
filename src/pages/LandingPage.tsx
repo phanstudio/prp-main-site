@@ -181,20 +181,20 @@ export const LandingPage: React.FC = () => {
           <p>the communities</p>
           <div className="flex space-x-4 justify-center">
             <button className="btn rounded-full p-0 w-12 h-12">
-              <img src={tiktok} alt="tiktok" className="w-8 h-8" />
+              <img src='\icons\tiktok.svg' alt="tiktok" className="w-8 h-8" />
             </button>
             <button className="btn rounded-full p-0 w-12 h-12">
-              <img src={X} alt="X" className="w-8 h-8" />
+              <img src='\icons\x.svg' alt="X" className="w-8 h-8" />
             </button>
             <button className="btn rounded-full p-0 w-12 h-12">
-              <img src={discord} alt="discord" className="w-8 h-8" />
+              <img src='\icons\discord.png' alt="discord" className="w-8 h-8" />
             </button>
             <button className="btn rounded-full p-0 w-12 h-12">
-              <img src={instagram} alt="instagram" className="w-8 h-8" />
+              <img src='\icons\instagram.png' alt="instagram" className="w-8 h-8" />
             </button>
-            {/* <button className="btn p-0 w-12 h-12 rounded-full">
-              <img src={youtube} alt="youtube" className="w-8 h-8" />
-            </button> */}
+            <button className="btn p-0 w-12 h-12 rounded-full">
+              <img src='\icons\youtube3.png' alt="youtube" className="w-8 h-8" />
+            </button>
           </div>
         </div>
       </div>
