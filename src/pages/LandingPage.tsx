@@ -15,7 +15,7 @@ import prp5 from "../assets/prp5.png";
 import Carousel from "../components/Carousel";
 import { FolderIcon, PlusCircle, Share2 } from "lucide-react";
 
-import youtube from "../assets/icons/youtube3.png";
+// import youtube from "../assets/icons/youtube3.png";
 import instagram from "../assets/icons/instagram.png";
 import discord from "../assets/icons/discord.png";
 import tiktok from "../assets/icons/tiktok.svg";
@@ -192,9 +192,9 @@ export const LandingPage: React.FC = () => {
             <button className="btn rounded-full p-0 w-12 h-12">
               <img src={instagram} alt="instagram" className="w-8 h-8" />
             </button>
-            <button className="btn p-0 w-12 h-12 rounded-full">
+            {/* <button className="btn p-0 w-12 h-12 rounded-full">
               <img src={youtube} alt="youtube" className="w-8 h-8" />
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
