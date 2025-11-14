@@ -16,10 +16,10 @@ import Carousel from "../components/Carousel";
 import { FolderIcon, PlusCircle, Share2 } from "lucide-react";
 
 // import youtube from "../assets/icons/youtube3.png";
-import instagram from "../assets/icons/instagram.png";
-import discord from "../assets/icons/discord.png";
-import tiktok from "../assets/icons/tiktok.svg";
-import X from "../assets/icons/x.svg";
+// import instagram from "../assets/icons/instagram.png";
+// import discord from "../assets/icons/discord.png";
+// import tiktok from "../assets/icons/tiktok.svg";
+// import X from "../assets/icons/x.svg";
 
 const images = [prp1, prp2, prp3, prp4, prp5, prp];
 
