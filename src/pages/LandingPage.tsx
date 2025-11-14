@@ -2,11 +2,26 @@
 import React from "react"; // , { useState, useEffect }
 // import { useNavigate, useLocation, Link } from 'react-router-dom';
 // import { Lock, Mail } from "lucide-react";
-import logo from "../assets/prp.jpg"; // <-- correct path
 import explainer from "../assets/Explainer.png";
 import Header from "../components/main/header";
 import HomeSection from "../components/sections/HomeSection";
 import thousandYardStare from "../assets/Thousand yard stare.png";
+import prp from "../assets/prp.jpg"; // <-- correct path
+import prp1 from "../assets/prp1.png";
+import prp2 from "../assets/prp2.png";
+import prp3 from "../assets/prp3.png";
+import prp4 from "../assets/prp4.png";
+import prp5 from "../assets/prp5.png";
+import Carousel from "../components/Carousel";
+import { FolderIcon, PlusCircle, Share2 } from "lucide-react";
+
+import youtube from "../assets/icons/youtube.png";
+import instagram from "../assets/icons/instagram.png";
+import discord from "../assets/icons/discord.png";
+import tiktok from "../assets/icons/tiktok.svg";
+import X from "../assets/icons/x.svg";
+
+const images = [prp1, prp2, prp3, prp4, prp5, prp];
 
 // add animations later
 // fix responsiveness later
@@ -81,17 +96,17 @@ export const LandingPage: React.FC = () => {
         </div>
 
         <div className="flex space-x-6">
-          <button className="btn flex flex-col text-left w-[420px] h-[150px] p-6">
+          <button className="btn flex flex-col text-left w-[420px] h-[250px] p-6">
             <div>
-              {/* image here */}
+              <FolderIcon className="w-8 h-8 mb-4" />
               <p className="text-3xl mb-2">Choose a template</p>
               <p>Find the perfect meme base!</p>
               <p>Choose from thousands of templates to bring to life.</p>
             </div>
           </button>
-          <button className="btn flex flex-col text-left w-[420px] h-[150px] p-6">
+          <button className="btn flex flex-col text-left w-[420px] h-[250px] p-6">
             <div>
-              {/* image here */}
+              <PlusCircle className="w-8 h-8 mb-4" />
               <p className="text-3xl mb-2">Add your trauma</p>
               <p>Add your personal touch!</p>
               <p>
@@ -100,9 +115,9 @@ export const LandingPage: React.FC = () => {
               </p>
             </div>
           </button>
-          <button className="btn flex flex-col text-left w-[420px] h-[150px] p-6">
+          <button className="btn flex flex-col text-left w-[420px] h-[250px] p-10">
             <div>
-              {/* image here */}
+              <Share2 className="w-8 h-8 mb-4" />
               <p className="text-3xl mb-2">Share your survival meme</p>
               <p>Did you make a meme?</p>
               <p>
@@ -135,7 +150,7 @@ export const LandingPage: React.FC = () => {
               </p>
             </div>
 
-            <button className="btn bg-gray-200 p-6 text-[red] text-lg">
+            <button className="btn bg-gray-200 px-12 py-8 text-[red] text-lg">
               Tell The Story
             </button>
           </div>
@@ -150,33 +165,37 @@ export const LandingPage: React.FC = () => {
         className="justify-center text-center items-center flex flex-col py-10 space-y-10 bg-base-200"
       >
         <div>
-          <p className="text-4xl font-bold mb-4">
-            Digital Collection
-          </p>
+          <p className="text-4xl font-bold mb-4">Digital Collection</p>
           <p>
-            Get your own very unique post-rug photo on a peer to peer marketplace
+            Get your own very unique post-rug photo on a peer to peer
+            marketplace
           </p>
         </div>
-
-        {/* hero section */}
-        <div className="space-y-4">
-          <img src={logo} alt="logo" className="w-100 h-100" />
-          <p className="text-4xl font-bold">Turn pain into trophies</p>
-          <button className="btn bg-[#ffffff] text-[red] p-6 rounded-full">
-            MAKE A MEME NOW
-          </button>
-        </div>
+        <Carousel images={images} interval={1500} />
         <div>
-          <p className="text-4xl font-bold mb-4">
-            Join the survivors 
-          </p>
+          <p className="text-4xl font-bold mb-4">Join the survivors</p>
+          <p>The collapse is inevitable, the laugh is optional</p>
           <p>
-            The collapse is inevitable, the laugh is optional
-          </p>
-          <p>
-            Join Our <span className="text-[red]">Community</span> 
+            Join Our <span className="text-[red]">Community</span>
           </p>
           <p>the communities</p>
+          <div className="flex space-x-4 justify-center">
+            <button className="btn rounded-full p-0 w-12 h-12">
+              <img src={tiktok} alt="tiktok" className="w-8 h-8" />
+            </button>
+            <button className="btn rounded-full p-0 w-12 h-12">
+              <img src={X} alt="X" className="w-8 h-8" />
+            </button>
+            <button className="btn rounded-full p-0 w-12 h-12">
+              <img src={discord} alt="discord" className="w-8 h-8" />
+            </button>
+            <button className="btn rounded-full p-0 w-12 h-12">
+              <img src={instagram} alt="instagram" className="w-8 h-8" />
+            </button>
+            <button className="btn p-0 w-12 h-12 rounded-full">
+              <img src={youtube} alt="youtube" className="w-8 h-8" />
+            </button>
+          </div>
         </div>
       </div>
     </div>
