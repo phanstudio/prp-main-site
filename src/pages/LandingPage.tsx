@@ -3,7 +3,7 @@ import React from "react"; // , { useState, useEffect }
 // import { useNavigate, useLocation, Link } from 'react-router-dom';
 // import { Lock, Mail } from "lucide-react";
 import logo from "../assets/prp.jpg"; // <-- correct path
-import explainer from "../assets/explainer.png";
+import explainer from "../assets/Explainer.png";
 import Header from "../components/main/header";
 import HomeSection from "../components/sections/HomeSection";
 import thousandYardStare from "../assets/Thousand yard stare.png";
