@@ -15,7 +15,7 @@ import prp5 from "../assets/prp5.png";
 import Carousel from "../components/Carousel";
 import { FolderIcon, PlusCircle, Share2 } from "lucide-react";
 
-import youtube from "../assets/icons/youtube.png";
+import youtube from "../assets/icons/youtube3.png";
 import instagram from "../assets/icons/instagram.png";
 import discord from "../assets/icons/discord.png";
 import tiktok from "../assets/icons/tiktok.svg";
