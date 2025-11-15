@@ -8,7 +8,7 @@ const HomeSection: React.FC = () => {
   return (
     <div
       id="home"
-      className="justify-center text-center items-center flex flex-col pt-12 sm:pt-16 md:pt-20 space-y-6 sm:space-y-8 md:space-y-10 mt-8 sm:mt-12 md:mt-15 px-4 sm:px-6 md:px-8"
+      className="justify-center text-center items-center flex flex-col pt-12 sm:pt-16 md:pt-20 space-y-0 sm:space-y-0 md:space-y-0 mt-8 sm:mt-12 md:mt-15 px-4 sm:px-6 md:px-8"
     >
       <div className="max-w-4xl">
         <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4">

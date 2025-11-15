@@ -80,7 +80,7 @@ const AboutSection: React.FC = () => {
                  pt-20 px-4 md:px-10 bg-base-200 space-y-10 md:space-y-0"
     >
       {/* IMAGE SECTION */}
-      <div className="flex flex-col space-y-10 items-center md:items-start">
+      <div className="flex flex-col space-y-10 items-center md:items-start mb-10">
         <div className="relative w-full max-w-[525px] h-[55vw] md:h-[420px]">
           {/* Back layer */}
           <div
@@ -129,7 +129,7 @@ const AboutSection: React.FC = () => {
       </div>
 
       {/* TEXT SECTION */}
-      <div className="space-y-4 text-center md:text-right max-w-xl mt-10 md:mt-0 px-4 md:px-0">
+      <div className="space-y-4 text-center md:text-right max-w-xl mt-10 md:mt-0 px-4 md:px-0 mb-4">
         <p className="text-4xl md:text-5xl font-bold text-[red]">What is PRP?</p>
         <p className="text-2xl md:text-4xl">P O S T - R U G  P H O T O S</p>
         <p className="text-xl md:text-2xl">
@@ -137,7 +137,7 @@ const AboutSection: React.FC = () => {
           art, satire and community storytelling. Every meme, animation, and rug
           is a photo in our shared album of survival.
         </p>
-        <button className="btn bg-[red] p-4 md:p-6 rounded-full text-white">
+        <button className="btn bg-[red] p-2 md:p-4 rounded-full text-white max-w-[300px] truncate whitespace-nowrap overflow-hidden">
           Take Your Post-Rug Photo
         </button>
       </div>
