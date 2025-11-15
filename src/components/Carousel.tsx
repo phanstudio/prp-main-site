@@ -5,7 +5,7 @@ interface CarouselProps {
   images: string[];
   interval?: number; // in milliseconds
 }
-
+// flip the image
 const Carousel: React.FC<CarouselProps> = ({ images, interval = 3000 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isTransitioning, setIsTransitioning] = useState(true);
