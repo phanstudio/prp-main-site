@@ -5,7 +5,9 @@ import React from "react"; // , { useState, useEffect }
 import explainer from "../assets/Explainer.png";
 import Header from "../components/main/header";
 import HomeSection from "../components/sections/HomeSection";
+import AboutSection from "../components/sections/AboutSection";
 import thousandYardStare from "../assets/Thousand yard stare.png";
+import hangman from "../assets/hangman.png";
 import prp from "../assets/prp.jpg"; // <-- correct path
 import prp1 from "../assets/prp1.png";
 import prp2 from "../assets/prp2.png";
@@ -14,12 +16,6 @@ import prp4 from "../assets/prp4.png";
 import prp5 from "../assets/prp5.png";
 import Carousel from "../components/Carousel";
 import { FolderIcon, PlusCircle, Share2 } from "lucide-react";
-
-// import youtube from "../assets/icons/youtube3.png";
-// import instagram from "../assets/icons/instagram.png";
-// import discord from "../assets/icons/discord.png";
-// import tiktok from "../assets/icons/tiktok.svg";
-// import X from "../assets/icons/x.svg";
 
 const images = [prp1, prp2, prp3, prp4, prp5, prp];
 
@@ -33,57 +29,7 @@ export const LandingPage: React.FC = () => {
       <HomeSection />
 
       {/* Second content */}
-      <div
-        id="about"
-        className="justify-around text-center items-start flex pt-20 space-y-6 bg-base-200 "
-      >
-        {/* section image */}
-        <div className="flex flex-col space-y-10">
-          <div className="relative w-[525px] h-[420px]">
-            {/* Back layer */}
-            <div
-              className="
-              absolute inset-0 
-              bg-gray-300 
-              rounded-xl 
-              shadow-xl 
-              rotate-[-4deg]
-            "
-            ></div>
-
-            {/* Top layer with your image */}
-            <img
-              src={explainer}
-              alt="Meme"
-              className="
-              absolute inset-0 
-              w-full h-full 
-              object-cover 
-              rounded-xl 
-              shadow-xl 
-              rotate-[3deg]
-            "
-            />
-          </div>
-          <div>
-            <p>different memes</p>
-          </div>
-        </div>
-
-        {/* hero section */}
-        <div className="space-y-4 text-right  max-w-xl mt-10">
-          <p className="text-5xl font-bold text-[red]">What is PRP?</p>
-          <p className="text-4xl">P O S T - R U G P H O T O S</p>
-          <p className="text-2xl">
-            Post-Rug Photos {"{PRP}"} is a creative collection turning chaos
-            into art, satire and community storytelling. Every meme, animation,
-            and rug is a photo in our shared album of survival.
-          </p>
-          <button className="btn bg-[red] p-6 rounded-full">
-            Take Your Post-Rug Photo
-          </button>
-        </div>
-      </div>
+      <AboutSection />
 
       {/* Thrid content */}
       <div

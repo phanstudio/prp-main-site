@@ -1,5 +1,12 @@
 import React from "react";
-import logo from "../../assets/prp.jpg";
+import CardFan from "../cardFan";
+import prp from "../../assets/prp.jpg"; // <-- correct path
+import prp1 from "../../assets/prp1.png";
+import prp2 from "../../assets/prp2.png";
+import prp3 from "../../assets/prp3.png";
+import prp4 from "../../assets/prp4.png";
+
+const images = [prp2, prp1, prp, prp3, prp4];
 
 const HomeSection: React.FC = () => {
   return (
@@ -20,9 +27,9 @@ const HomeSection: React.FC = () => {
         </p>
       </div>
 
+      <CardFan images={images}/>
       {/* hero section */}
       <div className="space-y-4">
-        <img src={logo} alt="logo" className="w-100 h-100" />
         <p className="text-4xl font-bold">Turn pain into trophies</p>
         <button className="btn bg-[#ffffff] text-[red] p-6 rounded-full">
           MAKE A MEME NOW
