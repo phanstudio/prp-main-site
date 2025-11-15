@@ -7,7 +7,7 @@ import prp3 from "../../assets/prp3.png";
 import prp4 from "../../assets/prp4.png";
 
 const images = [prp2, prp1, prp, prp3, prp4];
-
+// onhover show eyes
 const HomeSection: React.FC = () => {
   return (
     <div

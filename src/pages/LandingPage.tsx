@@ -1,14 +1,10 @@
 // src/pages/LandingPage.tsx
-import React from "react"; // , { useState, useEffect }
-// import { useNavigate, useLocation, Link } from 'react-router-dom';
-// import { Lock, Mail } from "lucide-react";
-import explainer from "../assets/Explainer.png";
+import React from "react";
 import Header from "../components/main/header";
 import HomeSection from "../components/sections/HomeSection";
 import AboutSection from "../components/sections/AboutSection";
 import thousandYardStare from "../assets/Thousand yard stare.png";
-import hangman from "../assets/hangman.png";
-import prp from "../assets/prp.jpg"; // <-- correct path
+import prp from "../assets/prp.jpg";
 import prp1 from "../assets/prp1.png";
 import prp2 from "../assets/prp2.png";
 import prp3 from "../assets/prp3.png";
