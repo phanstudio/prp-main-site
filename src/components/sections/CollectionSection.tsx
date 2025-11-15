@@ -1,13 +1,6 @@
 import React from "react";
 import Carousel from "../../components/Carousel";
-import {
-  prp,
-  prp1,
-  prp2,
-  prp3,
-  prp4,
-  prp5,
-} from "../../assets";
+import { prp, prp1, prp2, prp3, prp4, prp5 } from "../../assets";
 
 const images = [prp1, prp2, prp3, prp4, prp5, prp];
 
@@ -19,7 +12,9 @@ const CollectionSection: React.FC = () => {
     >
       {/* TOP SECTION */}
       <div>
-        <p className="text-3xl md:text-4xl font-bold mb-2">Digital Collectibles</p>
+        <p className="text-3xl md:text-4xl font-bold mb-2">
+          Digital Collectibles
+        </p>
         <p className="text-base md:text-lg max-w-xl">
           Get your own very unique post-rug photo on a peer-to-peer marketplace
         </p>
@@ -33,36 +28,64 @@ const CollectionSection: React.FC = () => {
       {/* COMMUNITY SECTION */}
       <div className="space-y-4">
         <p className="text-3xl md:text-4xl font-bold">Join the survivors</p>
-        <p className="text-base md:text-lg">The collapse is inevitable, the laugh is optional</p>
+        <p className="text-base md:text-lg">
+          The collapse is inevitable, the laugh is optional
+        </p>
         <p className="text-base md:text-lg">
           Join Our <span className="text-[red] font-semibold">Community</span>
         </p>
 
         {/* SOCIAL ICONS */}
         <div className="flex flex-wrap justify-center gap-4 mt-6">
-          <button className="btn rounded-full p-0 w-12 h-12">
-            <img src="/icons/tiktok.svg" alt="tiktok" className="w-8 h-8" />
-          </button>
+          <a
+            href="https://x.com/PostRugPhotos"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="btn rounded-full p-0 w-12 h-12">
+              <img src="/icons/tiktok.svg" alt="tiktok" className="w-8 h-8" />
+            </button>
+          </a>
 
-          <button className="btn rounded-full p-0 w-12 h-12">
-            <img
-              src="/icons/x.svg"
-              alt="X"
-              className="w-8 h-8 invert brightness-0 saturate-100"
-            />
-          </button>
+          <a
+            href="https://x.com/PostRugPhotos"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="btn rounded-full p-0 w-12 h-12">
+              <img src="/icons/x.svg" alt="X" className="w-8 h-8" />
+            </button>
+          </a>
 
-          <button className="btn rounded-full p-0 w-12 h-12">
-            <img src="/icons/discord.png" alt="discord" className="w-8 h-8" />
-          </button>
+          <a
+            href="https://discord.gg/FZgT6KT9ed"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="btn rounded-full p-0 w-12 h-12">
+              <img src="/icons/discord.png" alt="discord" className="w-8 h-8" />
+            </button>
+          </a>
 
-          <button className="btn rounded-full p-0 w-12 h-12">
-            <img src="/icons/instagram.png" alt="instagram" className="w-8 h-8" />
-          </button>
+          <a
+            href="https://www.instagram.com/rugstew/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="btn rounded-full p-0 w-12 h-12">
+              <img src="/icons/instagram.png" alt="instagram" className="w-8 h-8" />
+            </button>
+          </a>
 
-          <button className="btn rounded-full p-0 w-12 h-12">
-            <img src="/icons/youtube3.png" alt="youtube" className="w-8 h-8" />
-          </button>
+          <a
+            href="https://www.youtube.com/@rugstew"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="btn rounded-full p-0 w-12 h-12">
+              <img src="/icons/youtube3.png" alt="youtube" className="w-8 h-8" />
+            </button>
+          </a>
         </div>
       </div>
     </div>

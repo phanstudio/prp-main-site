@@ -26,10 +26,18 @@ const HomeSection: React.FC = () => {
       <CardFan images={images} />
       {/* hero section */}
       <div className="space-y-3 sm:space-y-4">
-        <p className="text-2xl sm:text-3xl md:text-4xl font-bold">Turn pain into trophies</p>
-        <button className="btn bg-white text-red-600 px-6 sm:px-8 md:px-10 py-3 sm:py-4 md:py-6 rounded-full text-sm sm:text-base md:text-lg font-semibold hover:bg-gray-100 transition-colors">
-          MAKE A MEME NOW
-        </button>
+        <p className="text-2xl sm:text-3xl md:text-4xl font-bold">
+          Turn pain into trophies
+        </p>
+        <a
+          href="https://meme.postrugphotos.xyz/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="btn bg-white text-red-600 px-6 sm:px-8 md:px-10 py-3 sm:py-4 md:py-6 rounded-full text-sm sm:text-base md:text-lg font-semibold hover:bg-gray-100 transition-colors">
+            MAKE A MEME NOW
+          </button>
+        </a>
       </div>
     </div>
   );

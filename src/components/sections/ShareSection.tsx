@@ -93,10 +93,16 @@ const ShareSection: React.FC = () => {
               them.
             </p>
           </div>
-
+          
+          <a
+          href="https://meme.postrugphotos.xyz/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button className="btn bg-gray-200 px-10 py-6 text-[red] text-lg">
             Tell The Story
           </button>
+        </a>
         </div>
 
         {/* IMAGE */}
