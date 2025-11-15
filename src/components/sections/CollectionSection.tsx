@@ -41,27 +41,27 @@ const CollectionSection: React.FC = () => {
         {/* SOCIAL ICONS */}
         <div className="flex flex-wrap justify-center gap-4 mt-6">
           <button className="btn rounded-full p-0 w-12 h-12">
-            <img src="public/icons/tiktok.svg" alt="tiktok" className="w-8 h-8" />
+            <img src="/icons/tiktok.svg" alt="tiktok" className="w-8 h-8" />
           </button>
 
           <button className="btn rounded-full p-0 w-12 h-12">
             <img
-              src="public/icons/x.svg"
+              src="/icons/x.svg"
               alt="X"
               className="w-8 h-8 invert brightness-0 saturate-100"
             />
           </button>
 
           <button className="btn rounded-full p-0 w-12 h-12">
-            <img src="public/icons/discord.png" alt="discord" className="w-8 h-8" />
+            <img src="/icons/discord.png" alt="discord" className="w-8 h-8" />
           </button>
 
           <button className="btn rounded-full p-0 w-12 h-12">
-            <img src="public/icons/instagram.png" alt="instagram" className="w-8 h-8" />
+            <img src="/icons/instagram.png" alt="instagram" className="w-8 h-8" />
           </button>
 
           <button className="btn rounded-full p-0 w-12 h-12">
-            <img src="public/icons/youtube3.png" alt="youtube" className="w-8 h-8" />
+            <img src="/icons/youtube3.png" alt="youtube" className="w-8 h-8" />
           </button>
         </div>
       </div>
