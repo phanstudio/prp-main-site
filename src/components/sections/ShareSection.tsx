@@ -89,7 +89,7 @@ const ShareSection: React.FC = () => {
           <div className="text-lg md:text-xl space-y-1">
             <p>Share your scars, your stories, and your humor.</p>
             <p>
-              Because the best survivors don't hide their scars — they meme
+              Because the best survivors don't hide their scars, they meme
               them.
             </p>
           </div>
