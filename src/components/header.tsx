@@ -33,7 +33,7 @@ const Header: React.FC = () => {
                 <a href="#about">About Us</a>
               </li>
               <li>
-                <a href="#share">Share</a>
+                <a href="#meme">Meme</a>
               </li>
               <li>
                 <a href="#collection">Collection</a>
@@ -57,7 +57,7 @@ const Header: React.FC = () => {
               <a href="#about">About Us</a>
             </li>
             <li>
-              <a href="#share">Share</a>
+              <a href="#meme">Meme</a>
             </li>
             <li>
               <a href="#collection">Collection</a>
