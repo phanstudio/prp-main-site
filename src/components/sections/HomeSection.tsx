@@ -10,6 +10,7 @@ import {
 
 const images = [cheers, prp1, stew, prp6, prp7];
 // onhover show eyes
+// flip the imaeges
 const HomeSection: React.FC = () => {
   return (
     <div
