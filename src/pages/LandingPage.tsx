@@ -129,7 +129,7 @@ export const LandingPage: React.FC = () => {
               <img src="\icons\tiktok.svg" alt="tiktok" className="w-8 h-8" />
             </button>
             <button className="btn rounded-full p-0 w-12 h-12">
-              <img src="\icons\x.svg" alt="X" className="w-8 h-8" />
+              <img src="\icons\x.svg" alt="X" className="w-8 h-8 text-[ffffff]" />
             </button>
             <button className="btn rounded-full p-0 w-12 h-12">
               <img src="\icons\discord.png" alt="discord" className="w-8 h-8" />
