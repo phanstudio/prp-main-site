@@ -11,7 +11,7 @@ import proveYet from "./memes/I just can't prove it.png";
 import cheers from "./memes/Cheers.png";
 import Yes from "./memes/Yes.png";
 import thousandYardStare from "./memes/Thousand yard stare.png";
-import cat from "./memes/cat.png";
+import cat from "./memes/Cat.png";
 import abssoluteCinema from "./memes/Absolute Cinema.png";
 import graveSelfie from "./memes/Grave selfie.png";
 
