@@ -3,15 +3,18 @@ import React from "react";
 import Header from "../components/main/header";
 import HomeSection from "../components/sections/HomeSection";
 import AboutSection from "../components/sections/AboutSection";
-import thousandYardStare from "../assets/Thousand yard stare.png";
-import prp from "../assets/prp.jpg";
-import prp1 from "../assets/prp1.png";
-import prp2 from "../assets/prp2.png";
-import prp3 from "../assets/prp3.png";
-import prp4 from "../assets/prp4.png";
-import prp5 from "../assets/prp5.png";
+
 import Carousel from "../components/Carousel";
 import { FolderIcon, PlusCircle, Share2 } from "lucide-react";
+import {
+  prp,
+  prp1,
+  prp2,
+  prp3,
+  prp4,
+  prp5,
+  thousandYardStare,
+} from "../assets";
 
 const images = [prp1, prp2, prp3, prp4, prp5, prp];
 
@@ -123,19 +126,27 @@ export const LandingPage: React.FC = () => {
           <p>the communities</p>
           <div className="flex space-x-4 justify-center">
             <button className="btn rounded-full p-0 w-12 h-12">
-              <img src='\icons\tiktok.svg' alt="tiktok" className="w-8 h-8" />
+              <img src="\icons\tiktok.svg" alt="tiktok" className="w-8 h-8" />
             </button>
             <button className="btn rounded-full p-0 w-12 h-12">
-              <img src='\icons\x.svg' alt="X" className="w-8 h-8" />
+              <img src="\icons\x.svg" alt="X" className="w-8 h-8" />
             </button>
             <button className="btn rounded-full p-0 w-12 h-12">
-              <img src='\icons\discord.png' alt="discord" className="w-8 h-8" />
+              <img src="\icons\discord.png" alt="discord" className="w-8 h-8" />
             </button>
             <button className="btn rounded-full p-0 w-12 h-12">
-              <img src='\icons\instagram.png' alt="instagram" className="w-8 h-8" />
+              <img
+                src="\icons\instagram.png"
+                alt="instagram"
+                className="w-8 h-8"
+              />
             </button>
             <button className="btn p-0 w-12 h-12 rounded-full">
-              <img src='\icons\youtube3.png' alt="youtube" className="w-8 h-8" />
+              <img
+                src="\icons\youtube3.png"
+                alt="youtube"
+                className="w-8 h-8"
+              />
             </button>
           </div>
         </div>
