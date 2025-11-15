@@ -1,6 +1,6 @@
 // src/pages/LandingPage.tsx
 import React from "react";
-import Header from "../components/main/header";
+import Header from "../components/header";
 import HomeSection from "../components/sections/HomeSection";
 import AboutSection from "../components/sections/AboutSection";
 
@@ -110,7 +110,7 @@ export const LandingPage: React.FC = () => {
         className="justify-center text-center items-center flex flex-col py-10 space-y-10 bg-base-200"
       >
         <div>
-          <p className="text-4xl font-bold mb-4">Digital Collection</p>
+          <p className="text-4xl font-bold mb-4">Digital Collectibles</p>
           <p>
             Get your own very unique post-rug photo on a peer to peer
             marketplace

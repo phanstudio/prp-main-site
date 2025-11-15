@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 const Header: React.FC = () =>{
   return (
     <header className="fixed top-0 left-0 right-0 z-40">
-      <nav className="navbar bg-base-200 shadow-sm lg:px-20">
-        <div className="navbar-start">
+      <nav className="navbar bg-base-200 shadow-sm lg:px-20 justify-center">
+        <div className="navbar-start lg:hidden">
           <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+            <div tabIndex={0} role="button" className="btn btn-ghost ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -28,6 +28,7 @@ const Header: React.FC = () =>{
         </div>
 
         <div className="navbar-center hidden lg:flex border-2 border-[#ff0000] rounded-full px-10">
+        <Link to={"/"} className="btn btn-ghost text-2xl text-[#ff0000]">Post-Rug Photos</Link>
           <ul className="menu menu-horizontal px-1">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About Us</a></li>

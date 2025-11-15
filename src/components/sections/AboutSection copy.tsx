@@ -231,7 +231,7 @@ const AboutSection: React.FC<AboutSectionProps> = () => {
       {/* right text */}
       <div className="space-y-4 text-right max-w-xl mt-10">
         <p className="text-5xl font-bold text-[red]">What is PRP?</p>
-        <p className="text-4xl">P O S T - R U G P H O T O S</p>
+        <p className="text-4xl">P O S T - R U G  P H O T O S</p>
         <p className="text-2xl">
           Post-Rug Photos {"{PRP}"} is a creative collection turning chaos into
           art, satire and community storytelling. Every meme, animation, and rug
