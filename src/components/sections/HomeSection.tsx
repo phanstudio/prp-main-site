@@ -1,12 +1,14 @@
 import React from "react";
 import CardFan from "../CardFan";
-import prp from "../../assets/prp.jpg";
-import prp1 from "../../assets/prp1.png";
-import prp2 from "../../assets/prp2.png";
-import prp3 from "../../assets/prp3.png";
-import prp4 from "../../assets/prp4.png";
+import {
+  stew,
+  prp1,
+  cheers,
+  prp6,
+  prp7,
+} from "../../assets";
 
-const images = [prp2, prp1, prp, prp3, prp4];
+const images = [cheers, prp1, stew, prp6, prp7];
 // onhover show eyes
 const HomeSection: React.FC = () => {
   return (
@@ -16,7 +18,7 @@ const HomeSection: React.FC = () => {
     >
       <div>
         <p className="text-4xl font-bold mb-4">
-          Smile Through The Collaspe
+          Smile Through The Collapse
         </p>
         <p>
           In a world of inevitable loss, endurance is the only way to survive.
