@@ -42,15 +42,26 @@ const Carousel: React.FC<CarouselProps> = ({ images, interval = 3000 }) => {
           transition: isTransitioning ? "transform 500ms ease-in-out" : "none",
         }}
       >
-        {extendedImages.map((src, index) => (
-          <div
-            key={index}
-            className="flex-shrink-0"
-            style={{ width: "calc((100% / 3) - 0.5rem)" }}
-          >
-            <img src={src} className="w-full h-auto rounded-md object-cover" />
-          </div>
-        ))}
+        {extendedImages.map((src, index) => {
+          const visibleIndex = index - currentIndex;
+          const isLeft = visibleIndex === 0; // first visible image
+          return (
+            <div
+              key={index}
+              className="flex-shrink-0"
+              // style={{ width: "calc((100% / 3) - 0.5rem)" }}
+              style={{
+                width: "calc((100% / 3) - 0.5rem)",
+                transform: isLeft ? "scaleX(-1)" : "none",
+              }}
+            >
+              <img
+                src={src}
+                className="w-full h-auto rounded-md object-cover"
+              />
+            </div>
+          );
+        })}
       </div>
 
       <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2  sm:flex hidden space-x-2 ">
@@ -58,7 +69,9 @@ const Carousel: React.FC<CarouselProps> = ({ images, interval = 3000 }) => {
           <span
             key={idx}
             className={`w-2 h-2 rounded-full cursor-pointer ${
-              idx === (currentIndex % images.length) ? "bg-red-500" : "bg-gray-300"
+              idx === currentIndex % images.length
+                ? "bg-red-500"
+                : "bg-gray-300"
             }`}
             onClick={() => {
               setIsTransitioning(true);

@@ -87,7 +87,7 @@ const CardFan: React.FC<{ images: Array<string> }> = ({ images }) => {
 
     if (!animate) {
       return {
-        transform: `scale(${scale})`,
+        transform: `scale(${scale})${offset < 0 ? " scaleX(-1)" : ""}`,
         zIndex: totalCards - distanceFromCenter,
       };
     }
@@ -98,7 +98,7 @@ const CardFan: React.FC<{ images: Array<string> }> = ({ images }) => {
     const yTranslate = distanceFromCenter * arcHeight;
 
     return {
-      transform: `translateX(${xTranslate}px) translateY(${yTranslate}px) rotate(${rotation}deg) scale(${scale})`,
+      transform: `translateX(${xTranslate}px) translateY(${yTranslate}px) rotate(${rotation}deg) scale(${scale})${offset < 0 ? " scaleX(-1)" : ""}`,
       zIndex: totalCards - distanceFromCenter,
     };
   };
