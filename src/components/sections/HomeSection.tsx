@@ -3,18 +3,21 @@ import CardFan from "../CardFan";
 import { stew, prp1, cheers, prp6, prp7 } from "../../assets";
 
 const images = [cheers, prp1, stew, prp6, prp7];
-// onhover show eyes
-// flip the imaeges
+
 const HomeSection: React.FC = () => {
   return (
     <div
       id="home"
-      className="justify-center text-center items-center flex flex-col pt-20 space-y-10 mt-15"
+      className="justify-center text-center items-center flex flex-col pt-12 sm:pt-16 md:pt-20 space-y-6 sm:space-y-8 md:space-y-10 mt-8 sm:mt-12 md:mt-15 px-4 sm:px-6 md:px-8"
     >
-      <div>
-        <p className="text-4xl font-bold mb-4">Smile Through The Collapse</p>
-        <p>In a world of inevitable loss, endurance is survival</p>
-        <p>
+      <div className="max-w-4xl">
+        <p className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4">
+          Smile Through The Collapse
+        </p>
+        <p className="text-sm sm:text-base md:text-mb">
+          In a world of inevitable loss, endurance is survival
+        </p>
+        <p className="text-sm sm:text-base md:text-mb">
           We promote positivity through satire, because what good is success
           without a little pain?
         </p>
@@ -22,9 +25,9 @@ const HomeSection: React.FC = () => {
 
       <CardFan images={images} />
       {/* hero section */}
-      <div className="space-y-4">
-        <p className="text-4xl font-bold">Turn pain into trophies</p>
-        <button className="btn bg-[#ffffff] text-[red] p-6 rounded-full">
+      <div className="space-y-3 sm:space-y-4">
+        <p className="text-2xl sm:text-3xl md:text-4xl font-bold">Turn pain into trophies</p>
+        <button className="btn bg-white text-red-600 px-6 sm:px-8 md:px-10 py-3 sm:py-4 md:py-6 rounded-full text-sm sm:text-base md:text-lg font-semibold hover:bg-gray-100 transition-colors">
           MAKE A MEME NOW
         </button>
       </div>
@@ -33,3 +36,41 @@ const HomeSection: React.FC = () => {
 };
 
 export default HomeSection;
+
+// const HomeSection: React.FC = () => {
+//   return (
+//     <div
+//       id="home"
+//       className="justify-center text-center items-center flex flex-col pt-12 sm:pt-16 md:pt-20 space-y-6 sm:space-y-8 md:space-y-10 mt-8 sm:mt-12 md:mt-15 px-4 sm:px-6 md:px-8"
+//     >
+//       <div className="max-w-4xl">
+//         <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4">
+//           Smile Through The Collapse
+//         </p>
+//         <p className="text-sm sm:text-base md:text-lg mb-2">
+//           In a world of inevitable loss, endurance is survival
+//         </p>
+//         <p className="text-sm sm:text-base md:text-lg">
+//           We promote positivity through satire, because what good is success
+//           without a little pain?
+//         </p>
+//       </div>
+
+//       <CardFan images={images} />
+
+//       <div className="space-y-3 sm:space-y-4 pb-8">
+//         <p className="text-2xl sm:text-3xl md:text-4xl font-bold px-4">
+//           Turn pain into trophies
+//         </p>
+//         <button className="btn bg-white text-red-600 px-6 sm:px-8 md:px-10 py-3 sm:py-4 md:py-6 rounded-full text-sm sm:text-base md:text-lg font-semibold hover:bg-gray-100 transition-colors">
+//           MAKE A MEME NOW
+//         </button>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default HomeSection;
+
+// onhover show eyes
+// flip the imaeges

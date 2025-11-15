@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Header: React.FC = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-40">
-      <nav className="navbar bg-base-200 shadow-sm lg:px-20 justify-center">
+      <nav className="navbar bg-base-200 shadow-sm lg:px-20 lg:justify-center ">
         <div className="navbar-start lg:hidden">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost ">

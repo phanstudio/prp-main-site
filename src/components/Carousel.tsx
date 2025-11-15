@@ -53,7 +53,7 @@ const Carousel: React.FC<CarouselProps> = ({ images, interval = 3000 }) => {
         ))}
       </div>
 
-      <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 flex space-x-2">
+      <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2  sm:flex hidden space-x-2 ">
         {images.map((_, idx) => (
           <span
             key={idx}
