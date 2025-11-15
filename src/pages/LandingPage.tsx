@@ -100,7 +100,7 @@ export const LandingPage: React.FC = () => {
             </button>
           </div>
 
-          <img src={thousandYardStare} alt="logo" className="w-150 h-150" />
+          <img src={thousandYardStare} alt="logo" className="w-150 h-150 rounded-2xl" />
         </div>
       </div>
 
