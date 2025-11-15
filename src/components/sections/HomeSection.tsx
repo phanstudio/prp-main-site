@@ -1,6 +1,6 @@
 import React from "react";
-import CardFan from "../cardFan";
-import prp from "../../assets/prp.jpg"; // <-- correct path
+import CardFan from "../CardFan";
+import prp from "../../assets/prp.jpg";
 import prp1 from "../../assets/prp1.png";
 import prp2 from "../../assets/prp2.png";
 import prp3 from "../../assets/prp3.png";
