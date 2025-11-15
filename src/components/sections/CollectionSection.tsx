@@ -38,7 +38,7 @@ const CollectionSection: React.FC = () => {
         {/* SOCIAL ICONS */}
         <div className="flex flex-wrap justify-center gap-4 mt-6">
           <a
-            href="https://x.com/PostRugPhotos"
+            href="https://www.tiktok.com/@rugstew"
             target="_blank"
             rel="noopener noreferrer"
           >
