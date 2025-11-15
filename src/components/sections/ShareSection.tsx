@@ -5,7 +5,7 @@ import { thousandYardStare } from "../../assets";
 const ShareSection: React.FC = () => {
   return (
     <div
-      id="share"
+      id="meme"
       className="flex flex-col items-center text-center pt-10 space-y-10 px-4"
     >
       {/* HEADER */}
