@@ -76,8 +76,8 @@ const AboutSection: React.FC = () => {
   return (
     <div
       id="about"
-      className="flex flex-col md:flex-row justify-around items-center md:items-start 
-                 pt-20 px-4 md:px-10 bg-base-200 space-y-10 md:space-y-0"
+      className="flex flex-col bg-transparent md:flex-row justify-around items-center md:items-start 
+                 pt-20 px-4 md:px-10 space-y-10 md:space-y-0"
     >
       {/* IMAGE SECTION */}
       <div className="flex flex-col space-y-10 items-center md:items-start mb-10">
@@ -103,7 +103,7 @@ const AboutSection: React.FC = () => {
               object-cover 
               rounded-xl 
               shadow-xl 
-              rotate-[3deg]
+              rotate-3
             "
           />
         </div>
@@ -130,14 +130,14 @@ const AboutSection: React.FC = () => {
 
       {/* TEXT SECTION */}
       <div className="space-y-4 text-center md:text-right max-w-xl mt-10 md:mt-0 px-4 md:px-0 mb-4">
-        <p className="text-4xl md:text-5xl font-bold text-[red]">What is PRP?</p>
+        <p className="text-4xl md:text-5xl font-bold text-[#FF4F22]">What is PRP?</p>
         <p className="text-2xl md:text-4xl">P O S T - R U G  P H O T O S</p>
         <p className="text-xl md:text-2xl">
           Post-Rug Photos {"{PRP}"} is a creative collection turning chaos into
           art, satire and community storytelling. Every meme, animation, and rug
           is a photo in our shared album of survival.
         </p>
-        <button className="btn bg-[red] p-2 md:p-4 rounded-full text-white max-w-[300px] truncate whitespace-nowrap overflow-hidden">
+        <button className="btn bg-[#FF4F22] p-2 md:p-4 rounded-full text-white max-w-[300px] truncate whitespace-nowrap overflow-hidden">
           Take Your Post-Rug Photo
         </button>
       </div>

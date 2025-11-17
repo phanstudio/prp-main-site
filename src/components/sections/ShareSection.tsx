@@ -28,8 +28,8 @@ const ShareSection: React.FC = () => {
     max-w-6xl
   "
       >
-        <button className="btn flex flex-col text-left p-6 min-h-[250px] w-full h-auto">
-          <FolderIcon className="w-8 h-8 mb-4" />
+        <button className="btn flex flex-col text-left p-6 bg-[#161614] min-h-[250px] w-full h-auto  border-2 border-[#FF4F22]">
+          <FolderIcon className="w-8 h-8 mb-4 self-start text-[#FF4F22]" />
           <p className="text-2xl md:text-3xl mb-2 line-clamp-3">
             Choose a template
           </p>
@@ -39,8 +39,8 @@ const ShareSection: React.FC = () => {
           </p>
         </button>
 
-        <button className="btn flex flex-col text-left p-6 min-h-[250px] w-full h-auto">
-          <PlusCircle className="w-8 h-8 mb-4" />
+        <button className="btn flex flex-col text-left  bg-[#161614] p-6 min-h-[250px] w-full h-auto border-2 border-[#FF4F22]">
+          <PlusCircle className="w-8 h-8 mb-4 self-start text-[#FF4F22]" />
           <p className="text-2xl md:text-3xl mb-2 line-clamp-3">
             Add your trauma
           </p>
@@ -51,8 +51,8 @@ const ShareSection: React.FC = () => {
           </p>
         </button>
 
-        <button className="btn flex flex-col text-left p-6 min-h-[250px] w-full h-auto">
-          <Share2 className="w-8 h-8 mb-4" />
+        <button className="btn flex flex-col text-left p-6 bg-[#161614] min-h-[250px] w-full h-auto border-2 border-[#FF4F22]">
+          <Share2 className="w-8 h-8 mb-4 self-start text-[#FF4F22]" />
           <p className="text-2xl md:text-3xl mb-2 line-clamp-3">
             Share your survival meme
           </p>
@@ -77,7 +77,7 @@ const ShareSection: React.FC = () => {
         {/* TEXT */}
         <div className="max-w-xl space-y-6">
           <p className="text-2xl md:text-3xl">Story to memes</p>
-          <p className="text-4xl md:text-5xl font-bold text-[red]">
+          <p className="text-4xl md:text-5xl font-bold text-[#FF4F22]">
             Every Scar Tells a Story
           </p>
 
