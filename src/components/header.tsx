@@ -46,10 +46,10 @@ const Header: React.FC = () => {
         </div>
 
         <div className="navbar-center hidden lg:flex  px-10">
-          <Link to={"/"} className=" p-12 text-2xl text-[#FF4F22]">
+          <Link to={"/"} className=" p-7 text-2xl text-[#FF4F22]">
             Post-Rug Photos
           </Link>
-          <ul className="menu menu-horizontal border-2 border-[#FF4F22] rounded-full px-1 text-lg font-semibold px-2 space-x-4">
+          <ul className="menu menu-horizontal border-2 border-[#FF4F22] rounded-full px-1 text-lg font-semibold  space-x-4">
             <li>
               <a href="#home"
               className="rounded-full ">Home</a>

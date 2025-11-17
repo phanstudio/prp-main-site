@@ -57,7 +57,7 @@ const CollectionSection: React.FC = () => {
     className="-ml-3 z-20"
   >
     <button className="btn rounded-full p-0 w-12 h-12 transition-transform hover:scale-110 hover:z-50">
-      <img src="/icons/x.svg" alt="X" className="w-8 h-8" />
+      <img src="/icons/fav.png" alt="X" className="w-8 h-8" />
     </button>
   </a>
 
