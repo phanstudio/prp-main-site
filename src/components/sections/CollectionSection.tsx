@@ -37,63 +37,77 @@ const CollectionSection: React.FC = () => {
           Join Our <span className="text-[red] font-semibold">Community</span>
         </p>
 
-       {/* SOCIAL ICONS */}
-<div className="flex justify-center items-center mt-6">
-  <a
-    href="https://www.tiktok.com/@rugstew"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="z-10"
-  >
-    <button className="btn rounded-full p-0 w-12 h-12 transition-transform hover:scale-110 hover:z-50">
-      <img src="/icons/tiktok.svg" alt="tiktok" className="w-8 h-8" />
-    </button>
-  </a>
+        {/* SOCIAL ICONS */}
+        <div
+          className="flex justify-center items-center mt-6 
+             gap-5                /* mobile: open gap */
+             md:gap-2             /* desktop: tight gap */
+             md:hover:gap-5       /* desktop: expand on hover */
+             transition-all duration-300"
+        >
+          <a
+            href="https://www.tiktok.com/@rugstew"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="z-10"
+          >
+            <button className="btn rounded-full p-0 w-12 h-12 transition-transform hover:scale-115 hover:z-50">
+              <img src="/icons/tiktok.svg" alt="tiktok" className="w-8 h-8" />
+            </button>
+          </a>
 
-  <a
-    href="https://x.com/PostRugPhotos"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="-ml-3 z-20"
-  >
-    <button className="btn rounded-full p-0 w-12 h-12 transition-transform hover:scale-110 hover:z-50">
-      <img src="/icons/fav.png" alt="X" className="w-8 h-8" />
-    </button>
-  </a>
+          <a
+            href="https://x.com/PostRugPhotos"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="-ml-3 z-20"
+          >
+            <button className="btn rounded-full p-0 w-12 h-12 transition-transform hover:scale-115 hover:z-50">
+              <img src="/icons/fav.png" alt="X" className="w-8 h-8" />
+            </button>
+          </a>
 
-  <a
-    href="https://discord.gg/FZgT6KT9ed"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="-ml-3 z-30"
-  >
-    <button className="btn rounded-full p-0 w-12 h-12 transition-transform hover:scale-110 hover:z-50">
-      <img src="/icons/discord.png" alt="discord" className="w-8 h-8" />
-    </button>
-  </a>
+          <a
+            href="https://discord.gg/FZgT6KT9ed"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="-ml-3 z-30"
+          >
+            <button className="btn rounded-full p-0 w-12 h-12 transition-transform hover:scale-115 hover:z-50">
+              <img src="/icons/discord.png" alt="discord" className="w-8 h-8" />
+            </button>
+          </a>
 
-  <a
-    href="https://www.instagram.com/rugstew/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="-ml-3 z-40"
-  >
-    <button className="btn rounded-full p-0 w-12 h-12 transition-transform hover:scale-110 hover:z-50">
-      <img src="/icons/instagram.png" alt="instagram" className="w-8 h-8" />
-    </button>
-  </a>
+          <a
+            href="https://www.instagram.com/rugstew/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="-ml-3 z-40"
+          >
+            <button className="btn rounded-full p-0 w-12 h-12 transition-transform hover:scale-115 hover:z-50">
+              <img
+                src="/icons/instagram.png"
+                alt="instagram"
+                className="w-8 h-8"
+              />
+            </button>
+          </a>
 
-  <a
-    href="https://www.youtube.com/@rugstew"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="-ml-3 z-50"
-  >
-    <button className="btn rounded-full p-0 w-12 h-12 transition-transform hover:scale-110 hover:z-50">
-      <img src="/icons/youtube3.png" alt="youtube" className="w-8 h-8" />
-    </button>
-  </a>
-</div>
+          <a
+            href="https://www.youtube.com/@rugstew"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="-ml-3 z-50"
+          >
+            <button className="btn rounded-full p-0 w-12 h-12 transition-transform hover:scale-115 hover:z-50">
+              <img
+                src="/icons/youtube3.png"
+                alt="youtube"
+                className="w-8 h-8"
+              />
+            </button>
+          </a>
+        </div>
       </div>
     </div>
   );
