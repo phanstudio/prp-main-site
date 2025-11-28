@@ -9,6 +9,7 @@ import prp5 from "./prp5.png";
 import prp6 from "./prp6.png";
 import prp7 from "./prp7.png";
 import stew from "./Stew.png";
+import eyes from "./eyes.png";
 import hangman from "./memes/hangman.png";
 import proveYet from "./memes/I just can't prove it.png";
 import cheers from "./memes/Cheers.png";
@@ -37,5 +38,6 @@ export {
   graveSelfie,
   prp6,
   prp7,
-  stew
+  stew,
+  eyes
 };

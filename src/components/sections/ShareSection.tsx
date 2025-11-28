@@ -89,20 +89,23 @@ const ShareSection: React.FC = () => {
           <div className="text-lg md:text-xl space-y-1">
             <p>Share your scars, your stories, and your humor.</p>
             <p>
-              Because the best survivors don't hide their scars, they meme
-              them.
+              Because the best survivors don't hide their scars, they meme them.
             </p>
           </div>
-          
+
           <a
-          href="https://meme.postrugphotos.xyz/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <button className="btn bg-gray-200 px-10 py-6 text-[red] text-lg">
-            Tell The Story
-          </button>
-        </a>
+            href="https://meme.postrugphotos.xyz/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button
+              className="btn bg-gray-200 px-10 py-6 text-red-600 text-lg 
+                   transition-all duration-200 
+                   hover:bg-gray-300 hover:scale-105"
+            >
+              Tell The Story
+            </button>
+          </a>
         </div>
 
         {/* IMAGE */}

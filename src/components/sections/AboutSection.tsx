@@ -17,10 +17,10 @@
 //           {/* Back layer */}
 //           <div
 //             className="
-//               absolute inset-0 
-//               bg-gray-300 
-//               rounded-xl 
-//               shadow-xl 
+//               absolute inset-0
+//               bg-gray-300
+//               rounded-xl
+//               shadow-xl
 //               rotate-[-4deg]
 //             "
 //           ></div>
@@ -30,11 +30,11 @@
 //             src={explainer}
 //             alt="Meme"
 //             className="
-//               absolute inset-0 
-//               w-full h-full 
-//               object-cover 
-//               rounded-xl 
-//               shadow-xl 
+//               absolute inset-0
+//               w-full h-full
+//               object-cover
+//               rounded-xl
+//               shadow-xl
 //               rotate-[3deg]
 //             "
 //           />
@@ -130,16 +130,32 @@ const AboutSection: React.FC = () => {
 
       {/* TEXT SECTION */}
       <div className="space-y-4 text-center md:text-right max-w-xl mt-10 md:mt-0 px-4 md:px-0 mb-4">
-        <p className="text-4xl md:text-5xl font-bold text-[#FF4F22]">What is PRP?</p>
-        <p className="text-2xl md:text-4xl">P O S T - R U G  P H O T O S</p>
+        <p className="text-4xl md:text-5xl font-bold text-[#FF4F22]">
+          What is PRP?
+        </p>
+        <p className="text-2xl md:text-4xl">P O S T - R U G P H O T O S</p>
         <p className="text-xl md:text-2xl">
           Post-Rug Photos {"{PRP}"} is a creative collection turning chaos into
           art, satire and community storytelling. Every meme, animation, and rug
           is a photo in our shared album of survival.
         </p>
-        <button className="btn bg-[#FF4F22] p-2 md:p-4 rounded-full text-white max-w-[300px] truncate whitespace-nowrap overflow-hidden">
-          Take Your Post-Rug Photo
-        </button>
+        <a
+          href="https://mint.postrugphotos.xyz/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="border border-[#FF4F22] border-dashed rounded-xl w-fit inline-block mt-3">
+            <button
+              className="btn bg-[#FF4F22] p-3 md:p-8 rounded-xl text-white 
+             max-w-[300px] truncate whitespace-nowrap overflow-hidden
+             transform rotate-[-8deg] scale-110 
+             transition-all duration-300 origin-center text-lg
+             hover:rotate-0 hover:scale-100"
+            >
+              Take Your Post-Rug Photo
+            </button>
+          </div>
+        </a>
       </div>
     </div>
   );
