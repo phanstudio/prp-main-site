@@ -45,7 +45,7 @@ const HomeSection: React.FC = () => {
                group-hover:opacity-100 group-hover:translate-y-0 pointer-events-none"
             >
               <img src={eyes} alt="" className="w-10 sm:w-14 md:w-20" />
-              <img src={eyes} alt="" className="w-10 sm:w-14 md:w-20" />
+              <img src={eyes} alt="" className="w-10 sm:w-14 md:w-20 transform scale-x-[-1]" />
             </div>
             <span className="relative z-10">MAKE A MEME NOW!</span>
           </button>
